@@ -1,6 +1,6 @@
-# Windows10-RemoveApps
+# Remove apps from Windows 10 using Powershell
 
-Start Powershell and execute following commands:
+Start Powershell as Administrator and execute following commands:
 
   Removes Cortana:
 - Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage
